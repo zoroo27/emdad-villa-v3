@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Secondary User (Right/Back) -->
+    <path android:fillColor="#64748B"
+        android:pathData="M33,14 a5.5,5.5 0,1,0 0.1,0 z M25,37 c0,-5 4,-9 9,-9 c4,0 8,3 8,9 z" />
+    <!-- Primary VIP User Shadow -->
+    <path android:fillColor="#55000000"
+        android:pathData="M8,39 c0,-7 6,-11 13,-11 c7,0 13,4 13,11 z" />
+    <!-- Primary 3D Gold Head -->
+    <path android:pathData="M20,9 a7.5,7.5 0,1,0 0.1,0 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="13" android:startY="9" android:endX="27" android:endY="24"
+                android:startColor="#FFF3C4" android:centerColor="#D4AF37" android:endColor="#9A7214" />
+        </aapt:attr>
+    </path>
+    <!-- Primary 3D Shoulders -->
+    <path android:pathData="M7,39 c0,-7.5 5.5,-12 13,-12 c7.5,0 13,4.5 13,12 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="7" android:startY="27" android:endX="33" android:endY="39"
+                android:startColor="#E2E8F0" android:centerColor="#CBD5E1" android:endColor="#64748B" />
+        </aapt:attr>
+    </path>
+</vector>

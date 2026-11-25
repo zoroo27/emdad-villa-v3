@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 3D Squircle Base -->
+    <path android:fillColor="#55000000"
+        android:pathData="M11,7 h28 a8,8 0,0,1 8,8 v26 a8,8 0,0,1 -8,8 h-28 a8,8 0,0,1 -8,-8 v-26 a8,8 0,0,1 8,-8 z" />
+    <path android:pathData="M10,4 h28 a8,8 0,0,1 8,8 v24 a8,8 0,0,1 -8,8 h-28 a8,8 0,0,1 -8,-8 v-24 a8,8 0,0,1 8,-8 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="4" android:startY="4" android:endX="44" android:endY="44"
+                android:startColor="#FCE9A4" android:centerColor="#D4AF37" android:endColor="#8C6712" />
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#38FFFFFF"
+        android:pathData="M10,4 h28 a8,8 0,0,1 8,8 v6 c-12,4 -32,4 -44,0 v-6 a8,8 0,0,1 8,-8 z" />
+    <!-- 3D Villa Icon -->
+    <path android:fillColor="#0B132B"
+        android:pathData="M24,11 L10,23 L14,23 L14,36 L21,36 L21,28 L27,28 L27,36 L34,36 L34,23 L38,23 Z" />
+    <path android:fillColor="#33FFFFFF"
+        android:pathData="M24,11 L10,23 L14,23 L14,36 L21,36 L21,28 L24,28 Z" />
+</vector>

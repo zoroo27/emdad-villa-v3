@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="26dp"
+    android:height="26dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- 3D Golden Orb -->
+    <path android:pathData="M24,3 a21,21 0,1,0 0.1,0 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="6" android:startY="4" android:endX="42" android:endY="44"
+                android:startColor="#FFF5C3" android:centerColor="#D4AF37" android:endColor="#8C640F" />
+        </aapt:attr>
+    </path>
+    <!-- Top Specular Gloss -->
+    <path android:fillColor="#44FFFFFF"
+        android:pathData="M12,13 a15,8 0,0,1 24,0 a18,12 0,0,0 -24,0 z" />
+    <!-- Embossed Navy Plus -->
+    <path android:fillColor="#0B132B"
+        android:pathData="M21.5,13 h5 v8.5 h8.5 v5 h-8.5 v8.5 h-5 v-8.5 h-8.5 v-5 h8.5 z" />
+</vector>

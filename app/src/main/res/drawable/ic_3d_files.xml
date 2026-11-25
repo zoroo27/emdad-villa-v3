@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Shadow -->
+    <path android:fillColor="#55000000"
+        android:pathData="M8,41 h32 a2,2 0,0,1 0,3 h-32 a2,2 0,0,1 0,-3 z" />
+    <!-- Back Secondary Tower -->
+    <path android:pathData="M26,15 h12 a2,2 0,0,1 2,2 v24 h-14 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="26" android:startY="15" android:endX="40" android:endY="41"
+                android:startColor="#64748B" android:endColor="#334155" />
+        </aapt:attr>
+    </path>
+    <!-- Front Main 3D Tower -->
+    <path android:pathData="M10,8 h18 a2,2 0,0,1 2,2 v31 h-20 v-31 a2,2 0,0,1 2,-2 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="10" android:startY="8" android:endX="30" android:endY="41"
+                android:startColor="#FFF3C4" android:centerColor="#D4AF37" android:endColor="#8C6712" />
+        </aapt:attr>
+    </path>
+    <!-- Glowing Windows -->
+    <path android:fillColor="#0B132B"
+        android:pathData="M14,13 h4 v4 h-4 z M22,13 h4 v4 h-4 z M14,21 h4 v4 h-4 z M22,21 h4 v4 h-4 z M14,29 h4 v4 h-4 z M22,29 h4 v4 h-4 z" />
+    <path android:fillColor="#F3E5AB"
+        android:pathData="M32,20 h4 v4 h-4 z M32,28 h4 v4 h-4 z" />
+</vector>

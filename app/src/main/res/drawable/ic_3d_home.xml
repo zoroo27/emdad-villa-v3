@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Ground Shadow -->
+    <path android:fillColor="#55000000"
+        android:pathData="M10,41 a14,3 0,1,0 28,0 a14,3 0,1,0 -28,0 z" />
+    <!-- Left Sunlit Wall -->
+    <path android:pathData="M11,22 L24,12 L24,39 L11,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="11" android:startY="12" android:endX="24" android:endY="39"
+                android:startColor="#F8FAFC" android:endColor="#CBD5E1" />
+        </aapt:attr>
+    </path>
+    <!-- Right Shaded Wall -->
+    <path android:pathData="M24,12 L37,22 L37,39 L24,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="24" android:startY="12" android:endX="37" android:endY="39"
+                android:startColor="#94A3B8" android:endColor="#64748B" />
+        </aapt:attr>
+    </path>
+    <!-- 3D Gold Roof -->
+    <path android:pathData="M24,6 L6,21 L10,25 L24,14 L38,25 L42,21 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="6" android:startY="6" android:endX="42" android:endY="25"
+                android:startColor="#FFF3C4" android:centerColor="#D4AF37" android:endColor="#9A7214" />
+        </aapt:attr>
+    </path>
+    <!-- 3D Recessed Door -->
+    <path android:pathData="M20,39 L20,27 a4,4 0,0,1 8,0 L28,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="20" android:startY="25" android:endX="28" android:endY="39"
+                android:startColor="#1E3563" android:endColor="#0B132B" />
+        </aapt:attr>
+    </path>
+</vector>

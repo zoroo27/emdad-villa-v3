@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep 3D Navy Background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="0" android:endX="108" android:endY="108"
+                android:startColor="#1A2C54" android:centerColor="#0E1A36" android:endColor="#060B18" />
+        </aapt:attr>
+    </path>
+    <!-- Soft Outer Shadow -->
+    <path android:fillColor="#55000000"
+        android:pathData="M22,26 h64 a18,18 0,0,1 18,18 v44 a18,18 0,0,1 -18,18 h-64 a18,18 0,0,1 -18,-18 v-44 a18,18 0,0,1 18,-18 z" />
+    <!-- 3D Gold Bezel Card -->
+    <path android:pathData="M20,20 h68 a18,18 0,0,1 18,18 v32 a18,18 0,0,1 -18,18 h-68 a18,18 0,0,1 -18,-18 v-32 a18,18 0,0,1 18,-18 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="16" android:startY="16" android:endX="92" android:endY="92"
+                android:startColor="#F8E7A2" android:centerColor="#D4AF37" android:endColor="#8A6612" />
+        </aapt:attr>
+    </path>
+    <!-- Inner Recessed Navy Plate -->
+    <path android:pathData="M23,23 h62 a15,15 0,0,1 15,15 v26 a15,15 0,0,1 -15,15 h-62 a15,15 0,0,1 -15,-15 v-26 a15,15 0,0,1 15,-15 z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="20" android:startY="20" android:endX="88" android:endY="88"
+                android:startColor="#1E3563" android:endColor="#091226" />
+        </aapt:attr>
+    </path>
+    <!-- Top Glossy Reflection -->
+    <path android:fillColor="#22FFFFFF"
+        android:pathData="M23,23 h62 a15,15 0,0,1 15,15 v6 c-24,8 -68,8 -92,0 v-6 a15,15 0,0,1 15,-15 z" />
+    <!-- 3D Villa Shadow -->
+    <path android:fillColor="#66000000"
+        android:pathData="M56,31 L27,54 L35,54 L35,76 L77,76 L77,54 L85,54 Z" />
+    <!-- 3D Villa Left Sunlit Facet -->
+    <path android:pathData="M54,28 L25,51 L33,51 L33,73 L54,73 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="25" android:startY="28" android:endX="54" android:endY="73"
+                android:startColor="#FFF3C4" android:endColor="#D4AF37" />
+        </aapt:attr>
+    </path>
+    <!-- 3D Villa Right Shaded Facet -->
+    <path android:pathData="M54,28 L83,51 L75,51 L75,73 L54,73 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="54" android:startY="28" android:endX="83" android:endY="73"
+                android:startColor="#D4AF37" android:endColor="#9A7214" />
+        </aapt:attr>
+    </path>
+    <!-- Glowing 3D Door Arch -->
+    <path android:fillColor="#0B132B"
+        android:pathData="M48,73 L48,57 a6,6 0,0,1 12,0 L60,73 Z" />
+    <path android:fillColor="#44F3E5AB"
+        android:pathData="M50,73 L50,58 a4,4 0,0,1 8,0 L58,73 Z" />
+</vector>
