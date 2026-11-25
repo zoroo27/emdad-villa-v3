@@ -34,6 +34,7 @@ import android.webkit.WebViewClient;
 import android.widget.CheckBox;
 import android.widget.Switch;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.GradientDrawable;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
